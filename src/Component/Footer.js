@@ -1,29 +1,30 @@
 import React from 'react';
-import Logo from "../Images/Logo.svg"
+import Logo from "../Images/Logo.svg";
+import './Footer.css'; // Import your CSS file
 
 function Footer() {
   return (
-    <footer style={{ backgroundColor: '#f2f2f2', padding: '20px' }}> 
-      <img src={Logo} alt="Logo" style={{ width: '100px', marginBottom: '10px' }} />
+    <footer className="footer"> {/* Apply the 'footer' class here */}
+      <img src={Logo} alt="Logo" className="logo" /> {/* Apply the 'logo' class here */}
 
-      <nav>
-        <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
-          <li style={{ display: 'inline', marginRight: '20px' }}><a href="/">Home</a></li>
-          <li style={{ display: 'inline', marginRight: '20px' }}><a href="/about">About</a></li>
-          <li style={{ display: 'inline' }}><a href="/contact">Contact</a></li>
+      <nav className="nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
         </ul>
       </nav>
 
-      <div style={{ marginTop: '20px' }}>
+      <div className="contact-info">
         <p>Contact us at: <a href="mailto:info@yourwebsite.com">info@yourwebsite.com</a></p>
-        <p>Follow us on: 
-          <a href="#" style={{ marginLeft: '10px' }}>Facebook</a> 
-          <a href="#" style={{ marginLeft: '10px' }}>Twitter</a> 
-          <a href="#" style={{ marginLeft: '10px' }}>Instagram</a>
+        <p>Follow us on:
+          <a href="#" className="social-links">Facebook</a>
+          <a href="#" className="social-links">Twitter</a>
+          <a href="#" className="social-links">Instagram</a>
         </p>
       </div>
 
-      <p style={{ marginTop: '20px', fontSize: '12px' }}>&copy; 2024 Your Website Name</p>
+      <p className="copyright">&copy; 2024 Your Website Name</p>
     </footer>
   );
 }
