@@ -1,10 +1,15 @@
 import React from "react";
+import Testimonials from './Testimonials.js';
+import HeroSection from "./HeroSection.js";
+import Highlights from "./Highlights.js";
 
 function Main() {
     return (
         <main>
-            <h2>Main Content Area</h2>
-            <p>This is where your main content will go. You can add more sections, articles, or any other HTML elements here.</p>
+            <HeroSection/>
+            <Highlights/>
+            <Testimonials/>
+            
         </main>
     );
 };
