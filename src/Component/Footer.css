@@ -1,33 +1,47 @@
+/* Footer.css */
+
 .footer {
-  background-color: #f2f2f2;
-  padding: 20px;
+  background-color: #f8f9fa; /* Light grey background */
+  padding: 20px 0; /* Padding on top and bottom */
+  text-align: center; /* Center align text */
+  border-top: 1px solid #e4e4e4; /* Light border on top */
+  font-family: Arial, sans-serif; /* Use a clean font */
 }
 
-.logo {
-  width: 100px;
-  margin-bottom: 10px;
+.footer .logo {
+  width: 150px; /* Set the width of the logo */
+  margin-bottom: 20px; /* Add space below the logo */
 }
 
-.nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.footer .contact-info {
+  margin-top: 20px; /* Add space above contact info */
 }
 
-.nav li {
-  display: inline;
-  margin-right: 20px;
+.footer .contact-info p {
+  margin: 10px 0; /* Space between paragraphs */
+  color: #6c757d; /* Slightly darker text color */
 }
 
-.contact-info {
-  margin-top: 20px;
+.footer .contact-info a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove underline */
 }
 
-.social-links {
-  margin-left: 10px;
+.footer .contact-info a:hover {
+  text-decoration: underline; /* Underline on hover */
 }
 
-.copyright {
-  margin-top: 20px;
-  font-size: 12px;
+.footer .social-links {
+  margin: 0 10px; /* Space between social links */
+  display: inline-block; /* Align social links horizontally */
+}
+
+.footer .social-links:hover {
+  color: #0056b3; /* Darker color on hover */
+}
+
+.footer .copyright {
+  margin-top: 20px; /* Space above copyright text */
+  color: #6c757d; /* Slightly darker text color */
+  font-size: 14px; /* Smaller font size */
 }

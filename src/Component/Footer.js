@@ -4,16 +4,8 @@ import './Footer.css'; // Import your CSS file
 
 function Footer() {
   return (
-    <footer className="footer"> {/* Apply the 'footer' class here */}
-      <img src={Logo} alt="Logo" className="logo" /> {/* Apply the 'logo' class here */}
-
-      <nav className="nav">
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/contact">Contact</a></li>
-        </ul>
-      </nav>
+    <footer className="footer">
+      <img src={Logo} alt="Logo" className="logo" />
 
       <div className="contact-info">
         <p>Contact us at: <a href="mailto:info@yourwebsite.com">info@yourwebsite.com</a></p>

@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    justify-content: space-between; /* Distribute space between items */
+    padding: 10px 20px;
+    background-color: #f8f9fa; /* Example background color */
+}
+
+.logo {
+    height: 50px; /* Adjust size as needed */
+    margin-right: 20px; /* Add some space between the logo and nav */
+}
+
+/* Additional styles for the Nav component if needed */
+.nav {
+    display: flex;
+    gap: 15px; /* Space between navigation links */
+}

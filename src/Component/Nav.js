@@ -1,17 +1,15 @@
-import React from "react";
-import Logo from "../Images/Logo.svg";
+import React from 'react';
 import './Nav.css';
 
 function Nav() {
     return (
         <nav className="nav">
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/contact">Contact</a></li>
-            </ul>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#Menu">Menu</a>
+            <a href="#contact">Contact</a>
         </nav>
     );
-};
+}
 
 export default Nav;
