@@ -1,13 +1,16 @@
+// src/components/Nav.js
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Nav.css';
 
 function Nav() {
     return (
         <nav className="nav">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#Menu">Menu</a>
-            <a href="#contact">Contact</a>
+            <Link to="/">Home</Link>
+            <Link to="/">About</Link>
+            <Link to="/">Menu</Link>
+            <Link to="/">Contact</Link>
+            <Link to="/book">Booking</Link>
         </nav>
     );
 }
